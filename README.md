@@ -18,3 +18,10 @@ Este guia fornece instruções detalhadas para configurar um ambiente local do A
    docker-compose up -d
 
 
+## Verificando o Status dos Containers
+
+Certifique-se de que os containers Kafka e Zookeeper estão em execução com o comando:
+
+```shell
+docker ps
+
