@@ -25,10 +25,5 @@ Certifique-se de que os containers Kafka e Zookeeper estão em execução com o 
 ```shell
    docker ps
 
-## Produção e Consumo de Mensagens no Kafka
 
-Para produzir mensagens em um tópico Kafka usando o Kafka Console Producer, substitua `<nome_do_seu_container_kafka>` pelo nome do seu container Kafka no comando a seguir:
-
-```shell
-docker exec -it <nome_do_seu_container_kafka> kafka-console-producer --broker-list kafka:9092 --topic meu-topico
 
